@@ -81,7 +81,6 @@ body{
 }
 
 .menu-toggle{
-	display: none;
 	position: fixed;
 	top: 2rem;
 	right: 2rem;
@@ -242,6 +241,7 @@ footer{
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	min-width: 960px;
 }
 
 footer .contain{
@@ -249,6 +249,7 @@ footer .contain{
 	justify-content: space-between;
 	flex-wrap: wrap;
 	flex-direction: wrap;
+
 }
 
 footer .contain .sec{
@@ -357,6 +358,7 @@ footer p{
 	padding: 8px 100px;
 	text-align: center;
 	color: #999;
+	min-width: 960px;
 }
 
 .copyright p{
